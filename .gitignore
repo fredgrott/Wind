@@ -1,0 +1,6 @@
+bin/
+build/
+local.properties
+WindTest/bin/
+WindTest/build/
+WindTest/local.properties
