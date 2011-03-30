@@ -1,0 +1,238 @@
+/* Reset styles */
+html,body,div,h1,h2,h3,h4,h5,h6,p,img,
+dl,dt,dd,ol,ul,li,table,caption,tbody,
+tfoot,thead,tr,th,td,form,fieldset,
+embed,object,applet {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Fonts */
+@font-face {
+font-family: DroidSans-Bold;
+src: url("fonts/DroidSans-Bold.ttf") format("truetype");
+}
+@font-face {
+font-family: DroidSans;
+src: url("fonts/DroidSans.ttf") format("truetype");
+}
+@font-face {
+font-family: DroidSerif-Bold;
+src: url("fonts/DroidSerif-Boldt.ttf") format("truetype");
+}
+@font-face {
+font-family: DroidSerif;
+src: url("fonts/DroidSerif.ttf") format("truetype");
+}
+
+/* Basics */
+html, body {
+  overflow:hidden; /* keeps scrollbar off IE */
+  background-color:#fff;
+}
+
+body {
+  font-family:DroidSans,DroidSerif;
+  color:#000;
+  font-size:13px;
+  color:#333;
+  background-image:url();
+  background-repeat:repeat-x;
+}
+
+a, a code {
+  color:#006699;
+  text-decoration:none;
+}
+
+a:active,
+a:active code {
+  color:#f00;
+} 
+
+a:visited,
+a:visited code {
+  color:#006699;
+}
+
+input, select,
+textarea, option, label {
+  font-family:inherit;
+  font-size:inherit;
+  padding:0;
+  margin:0;
+  vertical-align:middle;
+}
+
+option {
+  padding:0 4px;
+}
+
+p {
+  padding:0;
+  margin:0 0 1em;
+}
+
+code, pre {
+  color:#007000;
+  font-family:monospace;
+  line-height:1em;
+}
+
+var {
+  color:#007000;
+  font-style:italic;
+}
+
+pre {
+  border:1px solid #ccc;
+  background-color:#fafafa;
+  padding:10px;
+  margin:0 0 1em 1em;
+  overflow:auto;
+  line-height:inherit; /* fixes vertical scrolling in webkit */
+}
+
+h1,h2,h3,h4,h5 {
+  margin:1em 0;
+  padding:0;
+}
+
+p,ul,ol,dl,dd,dt,li {
+  line-height:1.3em;
+}
+
+ul,ol {
+  margin:0 0 .8em;
+  padding:0 0 0 2em;
+}
+
+li {
+  padding:0 0 .5em;
+}
+
+dl {
+  margin:0 0 1em 0;
+  padding:0;
+}
+
+dt {
+  margin:0;
+  padding:0;
+}
+
+dd {
+  margin:0 0 1em;
+  padding:0 0 0 2em;
+}
+
+li p {
+  margin:.5em 0 0;
+}
+
+dd p {
+  margin:1em 0 0;
+}
+
+li pre, li table, li img {
+  margin:.5em 0 0 1em;
+}
+
+dd pre,
+#jd-content dd table,
+#jd-content dd img {
+  margin:1em 0 0 1em;
+}
+
+li ul,
+li ol,
+dd ul,
+dd ol {
+  margin:0;
+  padding: 0 0 0 2em;
+}
+
+li li,
+dd li {
+  margin:0;
+  padding:.5em 0 0;
+}
+
+dl dl,
+ol dl,
+ul dl {
+  margin:0 0 1em;
+  padding:0;
+}
+
+table {
+  font-size:1em;
+  margin:0 0 1em;
+  padding:0;
+  border-collapse:collapse;
+  border-width:0;
+  empty-cells:show;
+}
+
+td,th {
+  border:1px solid #ccc;
+  padding:6px 12px;
+  text-align:left;
+  vertical-align:top;
+  background-color:inherit;
+}
+
+th {
+  background-color:#dee8f1;
+}
+
+td > p:last-child {
+  margin:0;
+}
+
+HR {
+  background-color:#DFFBB6;
+  border:none;
+  height:5px;
+  margin:20px 0 10px;
+}
+
+blockquote {
+  margin: 0 0 1em 1em;
+  padding: 0 4em 0 1em;
+  border-left:2px solid #eee;
+}
+
+/* My Layout Additions*/
+
+FRAME {
+	frameborder="0";
+}
+
+map.APIVIZ {
+	background-color:#DFFBB6;
+}
+
+/* Headings */
+h1 { font-size: 145%;
+}
+/* Table colors */
+.TableHeadingColor     { background: #CCCCFF; color:#000000 } /* Dark mauve */
+.TableSubHeadingColor  { background: #EEEEFF; color:#000000 } /* Light mauve */
+.TableRowColor         { background: #FFFFFF; color:#000000 } /* White */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: 100%; font-family: Helvetica, DroidSans, DroidSerif; color:#000000 }
+.FrameHeadingFont { font-size:  90%; font-family: Helvetica, DroidSans, DroidSerif; color:#000000 }
+.FrameItemFont    { font-size:  90%; font-family: Helvetica, DroidSans, DroidSerif; color:#000000 }
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#EEEEFF; color:#000000} /* Light mauve */
+.NavBarCell1Rev { background-color:#00008B; color:#FFFFFF} /* Dark Blue */
+.NavBarFont1    { font-family: DroidSans, Helvetica, DroidSerif; color:#000000;color:#000000;}
+.NavBarFont1Rev { font-family: DroidSans, Helvetica, DroidSerif; color:#FFFFFF;color:#FFFFFF;}
+
+.NavBarCell2    { font-family: DroidSans, Helvetica, DroidSerif; background-color:#FFFFFF; color:#000000}
+.NavBarCell3    { font-family: DroidSans, Helvetica, DroidSerif; background-color:#FFFFFF; color:#000000}
+
+	

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     Mar 29, 2011 3:39:52 PM                                                        
+
+     Wind    
+     android pinball game
+                   
+     fredgrott                                                                
+     ====================================================================== -->
+<project name="Wind" default="">
+    <description>
+            android pinball game
+    </description>
+
+    <!-- Simple build system app parent project runs
+         both app build and BDD test build when needed
+          and otherwise runs a parent app
+          debug most of the dev time. 
+          
+          only run codeqa/javdocs as separate target
+          end of day type run and thus can include
+          executing that app and test projects debugs
+          
+          
+          
+          -->   
+	
+	<!-- build.template copy to get sdk ant vars right -->
+	
+	
+	
+	
+	
+	
+	
+	<target name="main.debug">
+		<!-- subant call test project debug -->
+	
+	</target>
+
+</project>

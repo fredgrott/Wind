@@ -1,0 +1,5 @@
+application.package=com.mobilebytes.antoid
+source.dir=src
+out.dir=build
+tested.project.dir=..
+parent.project.package.name=com.mobilebytes.wabash

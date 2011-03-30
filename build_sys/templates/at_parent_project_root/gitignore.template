@@ -1,0 +1,11 @@
+bin/
+WabashJVMTest/bin/
+WabashTest/bin/
+build/
+WabashJVMTest/build/
+WabashTest/build/
+local.properties
+WabashTest/local.properties
+tmp/
+gen/
+WabashTest/gen/

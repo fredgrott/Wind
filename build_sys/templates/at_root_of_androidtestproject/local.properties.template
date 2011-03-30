@@ -1,0 +1,7 @@
+sdk.dir=/home/fredgrott/opt/android/android-sdk-linux_86_mine
+graphviz.executable.path=/usr/lib/dot
+key.store=/home/fredgrott/.android
+key.alias=mobilebytes
+key.store.password=docwho
+key.alias.password=docwho
+product.version=1.0.0
