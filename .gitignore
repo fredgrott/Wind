@@ -1,7 +1,8 @@
 bin/
 build/
+gen/
 local.properties
 WindTest/bin/
 WindTest/build/
 WindTest/local.properties
-
+WindTest/gen/
